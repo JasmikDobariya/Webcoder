@@ -1,6 +1,8 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import logo from '../img/logo.jpg'
+import Homepage from './Homepage';
+
 
 function Navbar() {
   return (
@@ -10,7 +12,7 @@ function Navbar() {
         <div className='col-10 mx-auto'>
           <nav className="navbar navbar-expand-lg ">
             <div className="container-fluid">
-              <NavLink  className="navbar-brand " to="/">
+              <NavLink exact  className="navbar-brand " to={<Homepage />}>
                 <img   src={logo} height={50} width={150} alt='/' />
               </NavLink>
               <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,7 +22,7 @@ function Navbar() {
                 <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
 
                 <li className="nav-item">
-                  <NavLink  className="nav-link  " to="/">Home</NavLink>
+                  <NavLink  className="nav-link  " to="/Webcoder">Home</NavLink>
                   </li>
 
                   <li className="nav-item">
