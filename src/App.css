@@ -1,0 +1,95 @@
+.header_div {
+    font-size: 40px;
+    color: rgb(248, 133, 198);
+}
+
+
+.dis_div {
+    font-size: 20px;
+    color: rgb(250, 153, 154);
+}
+
+.img-fluid{
+    height: 430px !important;
+}
+
+.row_div{
+    padding-top: 100px;
+}
+
+.img-fluid {
+    
+    animation: img_div 1s ease-in-out infinite alternate-reverse both;
+}
+
+@keyframes img_div {
+
+    0% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+@keyframes img_div {
+    0% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+.btn-success,
+.btn-primary
+{
+    border-radius: 50px !important;
+    background-color: rgb(222, 134, 244) !important;
+    border: rgb(244, 97, 193) !important;
+}
+
+.btn:hover{
+    background-color: rgb(242, 98, 127) !important;
+    
+}
+
+.navbar-brand{
+    font-size: 30px !important;
+    color: rgb(255, 168, 182) !important;
+
+}
+
+
+.nav-link{
+    font-size: 18px !important;
+    color: rgb(248, 142, 160) !important;
+}
+
+h1,h5,p{
+    color: rgb(248, 142, 160) !important;
+}
+
+.card{
+    border-color: rgb(248, 142, 160) !important ;
+}
+
+body {
+	background: linear-gradient(-45deg, #f46ca0, #fff, #fff, #fc85b3);
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
