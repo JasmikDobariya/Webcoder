@@ -19,7 +19,7 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route exact path='/Reactliveweb' element={<Homepage />} />
+        <Route exact path='/Webcoder' element={<Homepage />} />
         <Route exact path='/about' element={<About />} />
         <Route exact path='/contact_us' element={<Contact />} />
         <Route exact path='/service' element={<Service />} />
