@@ -12,7 +12,7 @@ function Navbar() {
         <div className='col-10 mx-auto'>
           <nav className="navbar navbar-expand-lg ">
             <div className="container-fluid">
-              <NavLink exact  className="navbar-brand " to={<Homepage />}>
+              <NavLink className="navbar-brand " to='/'>
                 <img   src={logo} height={50} width={150} alt='/' />
               </NavLink>
               <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
